@@ -3,7 +3,6 @@ C:\LenguajeInformatico\Consolidado2\Examen\Supermarket-mvp\Supermarket-mvp\bin\D
 C:\LenguajeInformatico\Consolidado2\Examen\Supermarket-mvp\Supermarket-mvp\bin\Debug\net7.0-windows\Supermarket-mvp.runtimeconfig.json
 C:\LenguajeInformatico\Consolidado2\Examen\Supermarket-mvp\Supermarket-mvp\bin\Debug\net7.0-windows\Supermarket-mvp.dll
 C:\LenguajeInformatico\Consolidado2\Examen\Supermarket-mvp\Supermarket-mvp\bin\Debug\net7.0-windows\Supermarket-mvp.pdb
-C:\LenguajeInformatico\Consolidado2\Examen\Supermarket-mvp\Supermarket-mvp\obj\Debug\net7.0-windows\Supermarket_mvp.Form1.resources
 C:\LenguajeInformatico\Consolidado2\Examen\Supermarket-mvp\Supermarket-mvp\obj\Debug\net7.0-windows\Supermarket-mvp.csproj.GenerateResource.cache
 C:\LenguajeInformatico\Consolidado2\Examen\Supermarket-mvp\Supermarket-mvp\obj\Debug\net7.0-windows\Supermarket-mvp.GeneratedMSBuildEditorConfig.editorconfig
 C:\LenguajeInformatico\Consolidado2\Examen\Supermarket-mvp\Supermarket-mvp\obj\Debug\net7.0-windows\Supermarket-mvp.AssemblyInfoInputs.cache
@@ -14,3 +13,6 @@ C:\LenguajeInformatico\Consolidado2\Examen\Supermarket-mvp\Supermarket-mvp\obj\D
 C:\LenguajeInformatico\Consolidado2\Examen\Supermarket-mvp\Supermarket-mvp\obj\Debug\net7.0-windows\Supermarket-mvp.pdb
 C:\LenguajeInformatico\Consolidado2\Examen\Supermarket-mvp\Supermarket-mvp\obj\Debug\net7.0-windows\Supermarket-mvp.genruntimeconfig.cache
 C:\LenguajeInformatico\Consolidado2\Examen\Supermarket-mvp\Supermarket-mvp\obj\Debug\net7.0-windows\ref\Supermarket-mvp.dll
+C:\LenguajeInformatico\Consolidado2\Examen\Supermarket-mvp\Supermarket-mvp\obj\Debug\net7.0-windows\Supermarket_mvp.Views.PayModeview.resources
+C:\LenguajeInformatico\Consolidado2\Examen\Supermarket-mvp\Supermarket-mvp\obj\Debug\net7.0-windows\Supermarket_mvp.Properties.Resources.resources
+C:\LenguajeInformatico\Consolidado2\Examen\Supermarket-mvp\Supermarket-mvp\obj\Debug\net7.0-windows\Supermarket_mvp.Form1.resources
