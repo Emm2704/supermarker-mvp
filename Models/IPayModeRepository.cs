@@ -14,7 +14,7 @@ namespace Supermarket_mvp.Models
         void Delete(int id);
 
         IEnumerable<PayModeModel> GetAll();
-        IEnumerable<PayModeModel> GeBytValue(String value);
+        IEnumerable<PayModeModel> GetByValue(String value);
 
     }
 }
