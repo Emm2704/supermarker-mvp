@@ -54,6 +54,7 @@ namespace Supermarket_mvp.Views
 
         }
 
+
         public PayModeview()
         {
             InitializeComponent();

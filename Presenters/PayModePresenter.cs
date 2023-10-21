@@ -10,14 +10,12 @@ namespace Supermarket_mvp.Presenters
 {
     internal class PayModePresenter
     {
-        internal class PayModePresente
-        {
             private IPayModeView view;
             private IPayModeRepository repository;
             private BindingSource payModeBindingSource;
             private IEnumerable<PayModeModel> payModeList;
 
-            public PayModePresente(IPayModeView view, IPayModeRepository repository)
+            public PayModePresenter(IPayModeView view, IPayModeRepository repository)
             {
                 this.payModeBindingSource = new BindingSource();
 
@@ -82,7 +80,5 @@ namespace Supermarket_mvp.Presenters
                 }
                 payModeBindingSource.DataSource = payModeList;
             }
-        }
-    }
-
+     }
 }
