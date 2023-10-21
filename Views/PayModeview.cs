@@ -62,6 +62,8 @@ namespace Supermarket_mvp.Views
 
             TabControl.TabPages.Remove(tabPagePayModeDetail);
 
+            BtnClose.Click += delegate { this.Close(); };
+
         }
 
         private void AssociateAndRaiseViewEvents()
@@ -108,11 +110,15 @@ namespace Supermarket_mvp.Views
 
         private static PayModeview instance;
 
-        public static PayModeview GetInstance()
+        public static PayModeview GetInstance(Form parentContainer)
         {
             if (instance == null || instance.IsDisposed)
             {
                 instance = new PayModeview();
+                instance.MdiParent = parentContainer;
+
+                instance.FormBorderStyle = FormBorderStyle.None;
+                instance.Dock = DockStyle.Fill;
             }
             else
             {

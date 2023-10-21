@@ -32,12 +32,14 @@
             Pnl1 = new Panel();
             BtnPayMode = new Button();
             PBox1 = new PictureBox();
+            BtnExit = new Button();
             Pnl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)PBox1).BeginInit();
             SuspendLayout();
             // 
             // Pnl1
             // 
+            Pnl1.Controls.Add(BtnExit);
             Pnl1.Controls.Add(BtnPayMode);
             Pnl1.Controls.Add(PBox1);
             Pnl1.Dock = DockStyle.Left;
@@ -48,6 +50,7 @@
             // 
             // BtnPayMode
             // 
+            BtnPayMode.BackgroundImageLayout = ImageLayout.Zoom;
             BtnPayMode.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             BtnPayMode.Image = (Image)resources.GetObject("BtnPayMode.Image");
             BtnPayMode.Location = new Point(3, 68);
@@ -66,15 +69,27 @@
             PBox1.TabIndex = 0;
             PBox1.TabStop = false;
             // 
+            // BtnExit
+            // 
+            BtnExit.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            BtnExit.Image = (Image)resources.GetObject("BtnExit.Image");
+            BtnExit.Location = new Point(3, 368);
+            BtnExit.Name = "BtnExit";
+            BtnExit.Size = new Size(194, 79);
+            BtnExit.TabIndex = 2;
+            BtnExit.UseVisualStyleBackColor = true;
+            // 
             // MainView
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(Pnl1);
+            IsMdiContainer = true;
             Name = "MainView";
             Text = "MainView";
             WindowState = FormWindowState.Maximized;
+            Load += MainView_Load;
             Pnl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)PBox1).EndInit();
             ResumeLayout(false);
@@ -85,5 +100,6 @@
         private Panel Pnl1;
         private Button BtnPayMode;
         private PictureBox PBox1;
+        private Button BtnExit;
     }
 }
