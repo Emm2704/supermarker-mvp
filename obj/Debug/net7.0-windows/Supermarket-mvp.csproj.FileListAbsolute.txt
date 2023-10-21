@@ -41,3 +41,4 @@ C:\LenguajeInformatico\Consolidado2\Examen\Supermarket-mvp\Supermarket-mvp\bin\D
 C:\LenguajeInformatico\Consolidado2\Examen\Supermarket-mvp\Supermarket-mvp\bin\Debug\net7.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\LenguajeInformatico\Consolidado2\Examen\Supermarket-mvp\Supermarket-mvp\obj\Debug\net7.0-windows\Supermarket-mvp.csproj.CopyComplete
 C:\LenguajeInformatico\Consolidado2\Examen\Supermarket-mvp\Supermarket-mvp\bin\Debug\net7.0-windows\Supermarket-mvp.dll.config
+C:\LenguajeInformatico\Consolidado2\Examen\Supermarket-mvp\Supermarket-mvp\obj\Debug\net7.0-windows\Supermarket_mvp.Views.MainView.resources

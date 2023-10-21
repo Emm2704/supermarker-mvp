@@ -105,5 +105,25 @@ namespace Supermarket_mvp.Views
         {
             throw new NotImplementedException();
         }
+
+        private static PayModeview instance;
+
+        public static PayModeview GetInstance()
+        {
+            if (instance == null || instance.IsDisposed)
+            {
+                instance = new PayModeview();
+            }
+            else
+            {
+                if (instance.WindowState == FormWindowState.Minimized)
+                {
+                    instance.WindowState = FormWindowState.Normal;
+                }
+                instance.BringToFront();
+            }
+            return instance;
+        }
+
     }
 }
