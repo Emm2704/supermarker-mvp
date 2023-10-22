@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainView));
             Pnl1 = new Panel();
+            BtnExit = new Button();
             BtnPayMode = new Button();
             PBox1 = new PictureBox();
-            BtnExit = new Button();
             Pnl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)PBox1).BeginInit();
             SuspendLayout();
@@ -48,6 +48,16 @@
             Pnl1.Size = new Size(200, 450);
             Pnl1.TabIndex = 0;
             // 
+            // BtnExit
+            // 
+            BtnExit.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            BtnExit.Image = (Image)resources.GetObject("BtnExit.Image");
+            BtnExit.Location = new Point(3, 368);
+            BtnExit.Name = "BtnExit";
+            BtnExit.Size = new Size(194, 79);
+            BtnExit.TabIndex = 2;
+            BtnExit.UseVisualStyleBackColor = true;
+            // 
             // BtnPayMode
             // 
             BtnPayMode.BackgroundImageLayout = ImageLayout.Zoom;
@@ -55,7 +65,7 @@
             BtnPayMode.Image = (Image)resources.GetObject("BtnPayMode.Image");
             BtnPayMode.Location = new Point(3, 68);
             BtnPayMode.Name = "BtnPayMode";
-            BtnPayMode.Size = new Size(194, 79);
+            BtnPayMode.Size = new Size(194, 77);
             BtnPayMode.TabIndex = 1;
             BtnPayMode.UseVisualStyleBackColor = true;
             // 
@@ -68,16 +78,6 @@
             PBox1.SizeMode = PictureBoxSizeMode.Zoom;
             PBox1.TabIndex = 0;
             PBox1.TabStop = false;
-            // 
-            // BtnExit
-            // 
-            BtnExit.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            BtnExit.Image = (Image)resources.GetObject("BtnExit.Image");
-            BtnExit.Location = new Point(3, 368);
-            BtnExit.Name = "BtnExit";
-            BtnExit.Size = new Size(194, 79);
-            BtnExit.TabIndex = 2;
-            BtnExit.UseVisualStyleBackColor = true;
             // 
             // MainView
             // 
